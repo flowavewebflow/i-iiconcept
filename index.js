@@ -413,14 +413,11 @@ function initImageAnimation() {
       img,
       {
         clipPath: "inset(0% 0% 100% 0%)",
-        scale: 1.1,
       },
       {
         clipPath: "inset(0% 0% 0% 0%)",
-        scale: 1,
         duration: 1.3,
         ease: "power2.out",
-        //immediateRender: false,
         scrollTrigger: {
           trigger: img,
           start: "30% bottom",
